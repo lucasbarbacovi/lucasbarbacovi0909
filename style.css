@@ -1,0 +1,33 @@
+:root{
+--branco-principal: #FFFFFF;
+--cinza-secundario: #C0C0C0;
+--botão-azul:#167bf7;
+--cor-de-fundo:#00030c;
+--fonte-principar:'inter';}
+body {background-color:   var(--cor-de-fundo);
+color:   var(--branco-principar);
+font-family: var(--fonte-principal);
+font-size:16px
+font -weight:400;}
+*{masrgim:0;
+padding:0;}
+.principal {background-image: url(https://www.alura.com.br/assmt/img/imersã0-java/ilustracão-imersã0-java/ilustraçao-java.167683691.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:top right;}
+    .container{height:10vh;
+    display:grid;
+grid-template-columns:50% 50%;}
+.container-botao{background_color:var(--botão-azul;)
+border-radios:5px;
+padding:1e;
+color:var(--branco-principal);
+display:block;
+text-decoration:none;
+margin-bottom:1em;}
+.botao_secundario{background-color:transparent;
+border:2px solid var(--branco-principal);}
+.container_aviso {font-size:32;
+font-weight:700;}
+.container_imagem{margin:1em 0 2em 0 ;}
+.container_caixa{margen: 0 6em; }
